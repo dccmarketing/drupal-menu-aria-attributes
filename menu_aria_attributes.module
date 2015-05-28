@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * Implements hook_menu_attribute_info().
+ */
+function menu_aria_attributes_menu_attribute_info() {
+
+	$info['aria-label'] = array(
+		'label' => t('ARIA Label'),
+		'description' => t('Specifies the aria-label attribute for accessibility.'),
+		'scope' => array(MENU_ATTRIBUTES_LINK)
+	);
+
+	return $info;
+
+}

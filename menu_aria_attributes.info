@@ -1,0 +1,4 @@
+name = Menu ARIA Attributes
+description = Adds a ARIA-Label field to the Menu Attributes module.
+core = 7.x
+dependencies[] = menu_attributes
